@@ -1,0 +1,29 @@
+// JAVASCRIPT EXUCTION CONTEXT
+
+// 1.Global EXUCTION(this)   // browser 
+// 2.Functional EC
+// 3.EVAL EC
+
+
+// how code works
+
+// 1.memory create phase (varible allocate)
+// 2.Excution
+
+
+let var1=10
+let var2=20
+
+function addNum(var1,var2){
+    let total=var1+var2
+   return total
+}
+
+let result1=addNum(var1,var2)
+let result2=addNum(var1,var2)
+
+
+mEMORY CR
+
+
+Call stack
